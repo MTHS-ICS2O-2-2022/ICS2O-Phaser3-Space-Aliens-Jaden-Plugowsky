@@ -18,7 +18,6 @@ class GameScene extends Phaser.Scene {
     const anAlien = this.physics.add.sprite(alienXLocation, -100, "alien")
     anAlien.body.velocity.y = 200
     anAlien.body.velocity.x = alienXVelocity
-    this.alienGroup.add(anAlien)
   }
 
   /**
